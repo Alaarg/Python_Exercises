@@ -130,28 +130,27 @@ num = int(input("the num : "))
 #-----------------------------------------------------
 
 #9
-"""
+
 for a in range(1,10,1):
      for b in range(9-a):
-         print (" ",end="")  
+         print (" ",end=" ")  
      for c in range(0,a,1):
-         print (c+1,end="")
+         print (c+1,end=" ")
      for d in range(a-1,0,-1):
-         print (d,end="")
+         print (d,end=" ")
      print()
 for a in range(9,0,-1):
      for b in range(10-a):
-         print (" ",end="")    
+         print (" ",end=" ")    
      for c in range(1,a,1):
-         print (c,end="")
+         print (c,end=" ")
      for d in range(a-1,1,-1):
-         print (d-1,end="")
+         print (d-1,end=" ")
      print()
 
-"""
 
 #-----------------------------------------------------
-
+     
 #10
 """
 while True:
@@ -167,7 +166,7 @@ print("Great, you successfully entered an integer!")
 
 #-----------------------------------------------------
 #11
-
+"""
 try:
     a=3
     if a<4:
@@ -176,7 +175,7 @@ try:
 except(ZeroDivisionError,NameError):
     print("\nError occurred and Handled")
        
-      
+   """   
 #-----------------------------------------------------
 #-----------------------------------------------------
 
